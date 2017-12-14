@@ -39,14 +39,15 @@
         margin-top: .7rem;
         display: block;
         transition: all .3s;
+        transform: translateY(-8rem);
     }
 
     &__input:placeholder-shown + &__label {
         opacity: 0;
         visibility: hidden;
-        transform: translateY(5rem);
+        transform: translateY(-4rem);
     }
- 
+
     &__radio-group {
         width: 49%;
         display: inline-block;
